@@ -1,0 +1,67 @@
+{
+
+"performanceappraisal": [
+    {
+        "key": "AppraisalID",
+        "type": "keyid",
+        "UIComponentTitle": "PerformanceAppraisal"
+    }
+        ,{
+        "key": "Quarter",
+        "label": "Quarter",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Date",
+        "label": "Date",
+        "type": "date",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "EmployeeNotes",
+        "label": "EmployeeNotes",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "ManagerComments",
+        "label": "ManagerComments",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "HikePercentage",
+        "label": "HikePercentage",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "AppraisalRating",
+        "label": "AppraisalRating",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Promotion",
+        "label": "Promotion",
+        "type": "check",
+        "editable": true,
+        "validators": [
+             "isTruthy"
+        ]
+                            }
+]
+}
